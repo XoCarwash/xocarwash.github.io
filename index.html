@@ -5,6 +5,10 @@
     <meta charset="utf-8" />
     <meta name="robots" content="noindex" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <style>
       body {
         text-align: center;
@@ -18,7 +22,7 @@
       }
       @media (min-width: 768px) {
         body {
-          padding-top: 150px;
+          padding-top: 80px;
         }
       }
       h1 {
@@ -29,14 +33,6 @@
       p {
         text-align: center;
         font-size: 80%;
-      }
-      a {
-        color: #dc8100;
-        text-decoration: none;
-      }
-      a:hover {
-        color: #efe8e8;
-        text-decoration: none;
       }
       img.logo {
         display: block;
@@ -53,6 +49,23 @@
       div.transbox p {
         margin: 5%;
         color: #fff;
+      }
+      .btn {
+        background-color: rgb(0, 0, 0);
+        border: none;
+        color: white;
+        padding: 12px 16px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+      .btn a {
+        color: white;
+      }
+
+      /* Darker background on mouse-over */
+      .btn:hover {
+        background-color: #f8c10a;
+        border-radius: 10px;
       }
     </style>
   </head>
@@ -74,5 +87,26 @@
         <p>&mdash; XO Carwash &mdash;</p>
       </div>
     </div>
+
+    <p>Contact Us For More Info:</p>
+    <button class="btn">
+      <a href="http://instagram.com/xocarwash.id"
+        ><i class="fa fa-instagram"></i
+      ></a>
+    </button>
+    <button class="btn">
+      <a href="https://facebook.com/xocarwash"
+        ><i class="fa fa-facebook"></i
+      ></a>
+    </button>
+    <button class="btn">
+      <a href="https://wa.me/6281818888822"><i class="fa fa-whatsapp"></i></a>
+    </button>
+    <button class="btn">
+      <a href="https://maps.app.goo.gl/wzj9xYToJpBrsXQRA"
+        ><i class="fa fa-map"></i
+      ></a>
+    </button>
+    <!-- <button class="btn"><a href=""><i class="fa fa-home"></a></i></button> -->
   </body>
 </html>
